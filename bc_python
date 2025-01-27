@@ -37,7 +37,7 @@ class blockchain():
                                   "amount": amount})
         return self.last_block["index"] + 1
 
-    @staticmethod  # decorator which defines that function can only be used locally
+    @staticmethod  
     def hash(block):
         # hashes given block
         # converts python object to json object, sort_key sorts alphabetically,Strings must be encoded before hashing
